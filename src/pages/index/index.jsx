@@ -1,28 +1,20 @@
-import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
-import './index.scss'
+import Taro from "@tarojs/taro";
+import { View, Button, Textarea } from "@tarojs/components";
+import "./index.scss";
 
-export default class Index extends Component {
-
-  componentWillMount () { }
-
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  config = {
-    navigationBarTitleText: '首页'
-  }
-
-  render () {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
+export default function Index() {
+  return (
+    <View className="index">
+      <Textarea
+        placeholder="撰写优质教程..."
+        className="post-input"
+        autoHeight
+      />
+      <Button className="post-button">发表</Button>
+    </View>
+  );
 }
+
+Index.config = {
+  navigationBarTitleText: "首页"
+};
