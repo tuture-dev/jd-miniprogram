@@ -1,4 +1,4 @@
-import Taro, { useState } from "@tarojs/taro";
+import Taro, { useState, useEffect } from "@tarojs/taro";
 import { View, Button, Textarea } from "@tarojs/components";
 
 import PostCard from "../../components/PostCard";
@@ -29,6 +29,24 @@ export default function Index() {
       setPostList(postList.concat(post));
     }
   }
+
+  useEffect(() => {
+    async function getPosts() {
+      try {
+        const res = await Taro.request({
+          url:
+            "https://9ff4272f-ce60-4be6-9376-f9f462482edc.mock.pstmn.io/articles"
+        });
+
+        const postList = res.data.map(item => item.name);
+        setPostList(postList);
+      } catch (err) {
+        console.log("err", err);
+      }
+    }
+
+    getPosts();
+  }, []);
 
   return (
     <View className="index">
