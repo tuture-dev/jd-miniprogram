@@ -44,7 +44,24 @@
                   "url": "https://taro.jd.com/"
                 },
                 {
-                  "text": " 来开发我们的京东小程序。"
+                  "text": " 来开发我们的京东小程序。首先我们来看一看最后的完成效果："
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "url": "https://imgkr.cn-bj.ufileos.com/beeb95bd-7bd1-4ed4-877a-d052d676d7b8.gif"
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
                 }
               ]
             },
@@ -2563,7 +2580,15 @@
                 },
                 {
                   "type": "image",
-                  "url": "https://imgkr.cn-bj.ufileos.com/49f23634-b9d2-473a-aa96-fa01902f05e6.png",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "url": "https://imgkr.cn-bj.ufileos.com/c4223eb3-088a-4c4f-878c-664ba4a1db0c.gif"
+                },
+                {
+                  "type": "paragraph",
                   "children": [
                     {
                       "text": ""
@@ -3877,7 +3902,7 @@
               "type": "paragraph",
               "children": [
                 {
-                  "text": "通过这篇教程快速上手京东小程序开发，我们可以发现得益于 Taro 的优秀跨端特性，即使是最新还未推出的京东小程序也可以游刃有余的开发我们需要的功能，这不禁让我想起了 Taro Next 发布之际，Taro 团队明确的初心和使命：“降低开发成本，提高开发体验和开发效率”，不忘初心，牢记使命，这就是 Taro 团队"
+                  "text": "通过这篇教程快速上手京东小程序开发，我们可以发现得益于 Taro 的优秀跨端特性，即使是最新还未推出的京东小程序也可以游刃有余的开发我们需要的功能，这不禁让我想起了 Taro Next 发布之际，Taro 团队明确的初心和使命：“降低开发成本，提高开发体验和开发效率”，不忘初心，牢记使命，这就是 Taro 团队拥抱变化的方式！"
                 }
               ]
             }
