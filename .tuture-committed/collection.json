@@ -1407,7 +1407,7 @@
                 {
                   "text": "京东小程序官网",
                   "link": true,
-                  "url": "http://mp.jd.com/"
+                  "url": "https://mp.jd.com/?entrance=taro"
                 },
                 {
                   "text": "，根据步骤注册小程序，并创建项目，然后取到项目的 "
